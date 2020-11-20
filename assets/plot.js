@@ -1,4 +1,4 @@
-fetch("http://0.0.0.0:8000/assets/company_data.json")
+fetch("assets/company_data.json")
     .then(res => res.json())
     .then(data => {
         var results = Object.entries(data);
@@ -33,7 +33,7 @@ fetch("http://0.0.0.0:8000/assets/company_data.json")
         });
     });
 
-fetch("http://0.0.0.0:8000/assets/company_registration_by_year.json")
+fetch("assets/company_registration_by_year.json")
     .then(res => res.json())
     .then(data => {
         var results = Object.entries(data);
@@ -68,7 +68,7 @@ fetch("http://0.0.0.0:8000/assets/company_registration_by_year.json")
         });
     });
 
-fetch("http://0.0.0.0:8000/assets/top_10_principal_business_activity.json")
+fetch("assets/top_10_principal_business_activity.json")
     .then(res => res.json())
     .then(data => {
         var results = Object.entries(data);
@@ -103,7 +103,7 @@ fetch("http://0.0.0.0:8000/assets/top_10_principal_business_activity.json")
         });
     });
 
-fetch("http://0.0.0.0:8000/assets/stacked_plot.json")
+fetch("assets/stacked_plot.json")
     .then(res => res.json())
     .then(data => {
         var results = Object.entries(data);
